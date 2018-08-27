@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Compositions",
+	"description": "This is a repository of compositions APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/compositions.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://compositions.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Compositions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/compositions/master/_listings/codefresh/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Compositions",
+	"include": [
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/compositions/master/_listings/codefresh/apis.yaml"
+		}
+	]
+}

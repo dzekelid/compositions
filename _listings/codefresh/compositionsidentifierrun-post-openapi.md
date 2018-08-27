@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Codefresh
-x-complete: 1
+x-complete: 0
 info:
-  title: Codefresh API
-  description: codefresh-api-swagger2-0-specification
+  title: Codefresh Post Compositions Entifier Run
+  description: Post compositions entifier run.
   termsOfService: http://www.codefresh.io
   contact:
     name: Codefresh api team
@@ -129,3 +130,17 @@ paths:
       - Compositions
       - Entifier
       - Run
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
